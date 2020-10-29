@@ -29,9 +29,9 @@ int liczbaRekordow=0;
                file>>liczba1 >> liczba2;  
                file2>>liczba3 >> liczba4;
                file3>>liczba5 >> liczba6;
-               liczba =  strtol(liczba2.c_str(), &endptr, 4);
-               liczba =  strtol(liczba4.c_str(), &endptr, 4);
-               liczba =  strtol(liczba6.c_str(), &endptr, 4);
+               liczba =  strtol(liczba2.c_str(), &endptr, 2);
+               liczbaII =  strtol(liczba4.c_str(), &endptr, 4);
+               liczbaIII =  strtol(liczba6.c_str(), &endptr, 8);
                
 
                if(pierwszy) 
